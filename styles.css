@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    max-width: 1500px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205),rgba(0,0,0,0.1)), url('blackn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.menu{
+
+    width: 40%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    font-weight: bold;
+
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+main {
+    padding-top: 5px;
+    text-align: center;   
+    background-image: url("blackn.jpg");
+    min-height: 620px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main p {
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right:150px;
+    font-size: 20px;
+}
+
+main li {
+    padding: 10px 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 350;
+    letter-spacing: 6px;
+    margin-bottom: 4px;
+    border-radius: 15px;
+    border: solid;
+
+}
+
+main h4{ 
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 30px; 
+
+}
+
+section{
+    padding-top:20px;
+}
+section h2 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 25px;
+
+}
+
+section a {
+
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: solid;
+    border-color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 350;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.bt1 {
+    color: #000;
+}
+
+.bt2 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    border-radius:5px;
+}
+
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.beat { 
+    animation: heartbeat 1s linear infinite;
+}
+@keyframes heartbeat {
+    0%{transform: scale(1,1);}
+    50%{transform: scale(0.9,0.9);}
+    1000%{transform: scale(1,1);}    
+}
+
+.unselectable { 
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;  
+    } 
+
+.open {
+     padding-top: 275px;
+ } 
+ .aboutp {
+     padding-top: 120px;
+ }  
+
+li {align-items: center;
+    background-color: rgba(0, 0, 0, 0.329);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.zoom{
+    transition: transform .1s; /* Animation */
+}
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+.menu{ padding-bottom: 50px; 
+       padding-left: 20px; 
+
+}
+
+main iframe{
+    box-shadow: 10px 10px 10px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+main img{
+     box-shadow: 5px 5px 5px black;
+     margin-right: 5px;
+     margin-left:5px;
+     margin-top: 10px;
+     margin-bottom: 5px;
+     border-radius: 10px;
+     background-color: rgba(0, 0, 0, 0.075);
+}

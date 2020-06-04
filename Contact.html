@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviral</title>
+    <link rel="stylesheet" type="text/css" href="styles4.css">
+    <link rel="shortcut icon" href="unnamed.png" type="image/x-icon">
+    <script src="my.js"></script>
+    <link rel="stylesheet" href="https://cdnjs/cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+ 
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="beat">
+                <a href="index.html"><img src="LOGO.png" alt="logo"></a>
+                </div>
+            </div>
+            <div>
+        <div class="navbar">
+        
+        <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        
+        <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li><a href="index.html" class="zoom">Home</a>
+             <li>   <a href="about.html"class="zoom"> About </a> </li>
+              <li>  <a href="Videos.html" class="zoom"> Videos </a></li>
+              <li>  <a href="photoshop.html" class="zoom"> Photoshop </a></li>
+               <li> <a href="photoshop.html" class="zoom"> Gaming </a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <script>
+            var navList = document.getElementById("nav-lists");
+            function Show() {
+            navList.classList.add("_Menus-show");
+            }
+            
+            function Hide(){
+            navList.classList.remove("_Menus-show");
+            }
+            </script>
+        </header>    
+        <main>
+            <p style=" border-radius:20px; border-style: solid; padding-bottom:10px; margin-bottom: 100px;">Find me on following platforms by clicking on the Respective Icons</p>
+            <p style="display: flex; justify-content: space-around;"><a href="https://www.facebook.com/aviral203c" target="_blank"><img src="images/facebook.png" height="100px"
+                    width="100px" alt="Fb" style="border-radius:50px;" class="zoom"></a></p>
+            <p style="display: flex; justify-content: space-around;"><a href="https://www.youtube.com/channel/UCRPQXdLcr1Ih9UFc9RMr8Nw" target="_blank"><img src="images/youtube.png"
+                    height="100px" width="100px" alt="Youtube" style="border-radius:50px ;" class="zoom"></a></p>
+            <p style="display: flex; justify-content: space-around;"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=aviral203c@gmail.com" target="_blank"><img src="images/gmail.png" height="100px" width="100px" alt="Gmail" style="border-radius:50px" class="zoom"></a></p>
+        </main>
+        <footer>
+            Aviral Agrawal&trade; - Copyrights 2020&copy;
+        </footer>
+
+
+
+</body>
+
+</html>
