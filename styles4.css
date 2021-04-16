@@ -7,7 +7,7 @@
 }
 main {
     padding-top: 5px;
-    text-align: center;   
+    align-items: center;   
     background-image: url("blackn.jpg");
     min-height: 620px;
     background-attachment: fixed;
