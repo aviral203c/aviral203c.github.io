@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviral</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="beat">
+                    <a href="index.html"><img src="LOGO.png" alt="logo"></a>
+                </div>
+            </div>
+            <div>
+                <div class="navbar">
+
+                    <div class="icon-bar" onclick="Show()">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                    <ul id="nav-lists">
+                        <li class="close"><span onclick="Hide()">×</span></li>
+                        <li><a href="index.html" class="zoom">Home</a>
+                        <li><a href="about.html" class="zoom"> About </a> </li>
+                        <li><a href="Videos.html" class="zoom"> Videos </a></li>
+                        <li><a href="photoshop.html" class="zoom"> Photoshop </a></li>
+                        <li><a href="https://www.youtube.com/channel/UCujNfKDh-KYC1DPG5wWOZIQ" class="zoom"
+                                target="_blank"> Gaming
+                            </a></li>
+                        <li><a href="Covid.htm" class="zoom"> Covid Resources
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+            var navList = document.getElementById("nav-lists");
+            function Show() {
+                navList.classList.add("_Menus-show");
+            }
+
+            function Hide() {
+                navList.classList.remove("_Menus-show");
+            }
+        </script>
+    </header>
+    <main>
+        <p style=" border-radius:20px; border-style: solid; padding-bottom:10px; margin-bottom: 100px;">Find me on
+            following platforms by clicking on the Respective Icons</p>
+        <a href="https://www.facebook.com/aviral203c" target="_blank"><img src="badges/facebook.png" height="500px"
+                alt="Fb" style="border-radius:50px;" class="zoom"></a>
+        <a href="https://www.youtube.com/channel/UCRPQXdLcr1Ih9UFc9RMr8Nw" target="_blank"><img src="badges/Youtube.png"
+                height="500px" alt="Youtube" style="border-radius:50px ;" class="zoom"></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aviral203c@gmail.com" target="_blank"><img
+                src="badges/Gmail.png" height="500px" alt="Gmail" style="border-radius:50px" class="zoom"></a>
+        <a href="https://www.linkedin.com/in/aviral203c/" target="_blank"><img src="badges/Linkedin.png"
+                height="500px" alt="Linkedin" style="border-radius:50px" class="zoom"></a>
+
+    </main>
+    <footer>
+        Aviral Agrawal&trade; - Copyrights 2020&copy;
+    </footer>
+
+
+
+</body>
+
+</html>
